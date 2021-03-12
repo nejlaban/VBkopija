@@ -1,0 +1,62 @@
+.jumbo-text {
+  margin-left: 165px;
+  margin-right: 165px;
+  line-height: 34px;
+  color: white;
+}
+.jumbotron {
+  background-image: url("../images/page1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 860px;
+}
+.title {
+  font-size: 65px;
+  margin-top: 62px;
+}
+.find {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.subheading {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+.quoteButton {
+  margin-top: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.lowerMenu {
+  margin-left: 165px;
+  margin-right: 165px;
+  color: white;
+  font-size: 25px;
+  margin-top: 250px;
+}
+.lowerMenu p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.navigacija {
+  background-color: #202A36;
+  text-decoration: none;
+}
+.officesDropButton, .languageDropButton {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 16px;
+}
+.searchBar {
+  background-color: transparent;
+  border-color: transparent;
+}
