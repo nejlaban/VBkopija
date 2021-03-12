@@ -2,18 +2,20 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { handleClickUserLogOut, Navbar, Nav, FormControl, Button, Form, Dropdown, DropdownToggle } from "react-bootstrap"
+import logoImg from "../images/logo.png"
+
+import "./layout.css";
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header className="navigacija">
 
-    <Navbar bg="dark" variant="dark">
-
+    <Navbar>
       <Nav className="container-fluid">
         <Nav.Item>
           <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle id="dropdown-basic" className="officesDropButton">
               Offices
-   </Dropdown.Toggle>
+            </Dropdown.Toggle>
 
             <Dropdown.Menu>
               <Dropdown.Item href="#/action-1">English</Dropdown.Item>
@@ -25,15 +27,13 @@ const Header = ({ siteTitle }) => (
 
         <Nav.Item className="ml-auto">
           <Form inline>
-            <Button variant="outline-info" className="mr-sm-2">Search</Button>
-
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <FormControl type="text" placeholder="Search" className="searchBar"/>
           </Form>
         </Nav.Item>
         <Nav.Item className="ml-auto">
           <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              Language
+            <Dropdown.Toggle id="dropdown-basic" className="languageDropButton">
+              Language | English
   </Dropdown.Toggle>
 
             <Dropdown.Menu>
@@ -58,12 +58,12 @@ const Header = ({ siteTitle }) => (
           <span class="text-muted">Toggleable via the navbar brand.</span>
         </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
+      <nav class="navbar">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div>
-         <li><a class="navbar-brand" href="#"><img src="./images/logo.png" class="img-responsive"></img></a></li> 
+         <li><a class="navbar-brand" href="#"><img src={logoImg} class="img-responsive"></img></a></li> 
 
         </div>
 

@@ -1,56 +1,29 @@
 import React from "react";
+import "./layout.css";
 
 const CustomJumbotron = () => (
-  <div>
-    <div
-      class="jumbotron jumbotron-fluid"
-      style={{
-        position: "relative",
-      }}
-    >
-      <div class="container"></div>
-      <div
-        style={{
-          position: "absolute",
-          bottom: 0,
-          paddingBottom: 0,
-        }}
-      >
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">
-                Work With Us <span class="sr-only">(current)</span>
-              </a>
-              <a class="nav-item nav-link" href="#">
-                Economic Leaders
-              </a>
-              <a class="nav-item nav-link" href="#">
-                Digital Transformation
-              </a>
-              <a class="nav-item nav-link" href="#">
-                Big Trends
-              </a>
-              <a class="nav-item nav-link" href="#">
-                Industries Of the Future
-              </a>
-            </div>
-          </div>
-        </nav>
+  <div className="container-fluid jumbotron">
+    <div className="jumbo-text">
+        <div>
+          <h1 className="title">DEEP EXPERTISE IN <br></br>CAPITAL RAISING</h1>
+          <span className="find">FIND OUT HOW</span>
+
+          <h3 className="subheading">Global consulting firm with a speciality in Innovation,<br></br>
+          Technology, Digital Transformation, Financing<br></br>
+          and Revenue Growth.</h3>
+
+          <button className="quoteButton">REQUEST A QUOTE</button>
+        </div>
+      </div>
+
+      <div className="row lowerMenu">
+        <p>Work With Us</p>
+        <p>Economic Leaders </p>
+        <p>Digital Transformation</p>
+        <p>Big Trends</p>
+        <p>Industries Of the Future </p>
       </div>
     </div>
-  </div>
 );
 
 export default CustomJumbotron;
