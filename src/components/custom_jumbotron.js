@@ -2,7 +2,7 @@ import React from "react";
 import "./layout.css";
 
 const CustomJumbotron = () => (
-  <div className="container-fluid jumbotron">
+  <div className="container-fluid jumbotron jumbotron-fluid">
     <div className="jumbo-text">
         <div>
           <h1 className="title">DEEP EXPERTISE IN <br></br>CAPITAL RAISING</h1>

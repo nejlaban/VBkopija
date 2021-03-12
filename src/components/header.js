@@ -1,14 +1,22 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
-import { handleClickUserLogOut, Navbar, Nav, FormControl, Button, Form, Dropdown, DropdownToggle } from "react-bootstrap"
-import logoImg from "../images/logo.png"
+import * as React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import {
+  // handleClickUserLogOut,
+  Navbar,
+  Nav,
+  FormControl,
+  // Button,
+  Form,
+  Dropdown,
+  // DropdownToggle,
+} from "react-bootstrap";
+import logoImg from "../images/logo.png";
 
 import "./layout.css";
 
 const Header = ({ siteTitle }) => (
   <header className="navigacija">
-
     <Navbar>
       <Nav className="container-fluid">
         <Nav.Item>
@@ -27,14 +35,18 @@ const Header = ({ siteTitle }) => (
 
         <Nav.Item className="ml-auto">
           <Form inline>
-            <FormControl type="text" placeholder="Search" className="searchBar"/>
+            <FormControl
+              type="text"
+              placeholder="Search"
+              className="searchBar"
+            />
           </Form>
         </Nav.Item>
         <Nav.Item className="ml-auto">
           <Dropdown>
             <Dropdown.Toggle id="dropdown-basic" className="languageDropButton">
               Language | English
-  </Dropdown.Toggle>
+            </Dropdown.Toggle>
 
             <Dropdown.Menu>
               <Dropdown.Item href="#/action-1">English</Dropdown.Item>
@@ -44,10 +56,7 @@ const Header = ({ siteTitle }) => (
           </Dropdown>
         </Nav.Item>
       </Nav>
-
-
     </Navbar>
-
 
     {/*siteTitle*/}
 
@@ -59,66 +68,87 @@ const Header = ({ siteTitle }) => (
         </div>
       </div>
       <nav class="navbar">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div>
-         <li><a class="navbar-brand" href="#"><img src={logoImg} class="img-responsive"></img></a></li> 
-
+          <li>
+            <a class="navbar-brand" href="#">
+              <img src={logoImg} class="img-responsive" alt=""></img>
+            </a>
+          </li>
         </div>
 
         <Nav.Item as="li">
-          <Link to="/about" className="nav-link" activeClassName="active">About
-             </Link>
+          <Link to="/about" className="nav-link" activeClassName="active">
+            About
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/consulting" className="nav-link" activeClassName="active">Consulting
-             </Link>
+          <Link to="/consulting" className="nav-link" activeClassName="active">
+            Consulting
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/financing" className="nav-link" activeClassName="active">Financing
-             </Link>
+          <Link to="/financing" className="nav-link" activeClassName="active">
+            Financing
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/Technology" className="nav-link" activeClassName="active">Technology
-             </Link>
+          <Link to="/Technology" className="nav-link" activeClassName="active">
+            Technology
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/legal" className="nav-link" activeClassName="active">Legal
-             </Link>
+          <Link to="/legal" className="nav-link" activeClassName="active">
+            Legal
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/careers" className="nav-link" activeClassName="active">Careers
-             </Link>
+          <Link to="/careers" className="nav-link" activeClassName="active">
+            Careers
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/insights" className="nav-link" activeClassName="active">Insights
-             </Link>
+          <Link to="/insights" className="nav-link" activeClassName="active">
+            Insights
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/reviews" className="nav-link" activeClassName="active">Reviews
-             </Link>
+          <Link to="/reviews" className="nav-link" activeClassName="active">
+            Reviews
+          </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link to="/contact" className="nav-link" activeClassName="active">Contact
-             </Link>
+          <Link to="/contact" className="nav-link" activeClassName="active">
+            Contact
+          </Link>
         </Nav.Item>
-        <button type="button" class="btn btn-primary">Schedule a consultation</button>
-        
-        <button type="button" class="btn btn-primary">1-800-000-0000</button>
+        <button type="button" class="btn btn-primary">
+          Schedule a consultation
+        </button>
 
+        <button type="button" class="btn btn-primary">
+          1-800-000-0000
+        </button>
       </nav>
-
     </div>
 
     <Navbar expand="md" bg="dark" variant="dark">
-
       {/* <Navbar.Brand href="/">{siteTitle}</Navbar.Brand> */}
 
-      <Navbar.Toggle aria-controls="navbarResponsive" ></Navbar.Toggle>
+      <Navbar.Toggle aria-controls="navbarResponsive"></Navbar.Toggle>
       <Navbar.Collapse id="navbarResponsive">
-        <Nav as="ul" >
-          { /*    <Nav.Item as="li">
+        <Nav as="ul">
+          {/*    <Nav.Item as="li">
             <Link to="/about" className="nav-link" activeClassName="active">About
              </Link>
           </Nav.Item>
@@ -154,20 +184,18 @@ const Header = ({ siteTitle }) => (
             <Link to="/contact" className="nav-link" activeClassName="active">Contact
              </Link>
           </Nav.Item> */}
-
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   </header>
-
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
