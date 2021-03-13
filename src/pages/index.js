@@ -11,7 +11,7 @@ import CompanyOverview from '../components/company_overview';
 import Comp from '../components/comp';
 import Career from '../components/career';
 import Subscribe from '../components/subscribe';
-
+import ClientsSay from '../components/clients_say';
 
 
 const IndexPage = () => (
@@ -35,6 +35,12 @@ const IndexPage = () => (
     <br />
     <br />
     <CompanyOverview />
+    <br />
+    <br />
+    <ClientsSay />
+    <br />
+    <br />
+    <br />
     <br />
     <br />
     <Subscribe />

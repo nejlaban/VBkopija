@@ -216,3 +216,25 @@
   background-size: cover;
   height: 500px;
 }
+.avatarCorner {
+  position: absolute;
+    top: -30px;
+    left: -40px;
+    width: 100px;
+}
+.consultationButton {
+  background-color: rgb(67, 203, 221);
+  width: 400px;
+  height: 75px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  font-size: larger;
+}
