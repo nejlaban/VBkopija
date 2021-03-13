@@ -143,7 +143,6 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 7px;
-  color: solid orange;
   border-spacing: 12;
   width: 200px;
   color: #45b6fe !important;
@@ -157,4 +156,14 @@
 }
 .pitanje {
   font-size: 95;
+}
+.career {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.venturePlans {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 65px; 
 }

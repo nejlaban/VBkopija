@@ -9,6 +9,8 @@ import CustomJumbotron from "../components/custom_jumbotron";
 import CoreValues from '../components/core_values';
 import CompanyOverview from '../components/company_overview';
 import Comp from '../components/comp';
+import Career from '../components/career';
+
 
 const IndexPage = () => (
   <div>
@@ -31,6 +33,9 @@ const IndexPage = () => (
     <br />
     <br />
     <CompanyOverview />
+    <br />
+    <br />
+    <Career />
   </div>
 );
 
