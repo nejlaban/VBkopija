@@ -216,6 +216,7 @@
   background-size: cover;
   height: 500px;
 }
+<<<<<<< HEAD
 
 .logoSlika {
 
@@ -255,3 +256,48 @@
   border: 2px solid;  
   margin-left: 60px;
 }
+=======
+.avatarCorner {
+  position: absolute;
+    top: -30px;
+    left: -40px;
+    width: 100px;
+}
+.consultationButton {
+  background-color: rgb(67, 203, 221);
+  width: 400px;
+  height: 75px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  font-size: larger;
+}
+.width100MarginLeft50 {
+  width: 100%;
+  margin-left: 50px;
+}
+.clientCard {
+  width: 25rem;
+  height: 300px;
+}
+.cardDiv {
+  position: relative; 
+  height: 300px;
+}
+.cardText {
+  padding-left: 45px;
+  padding-right: 12px; 
+  height:100%;
+}
+.cardTextDiv {
+  bottom: 0;
+  position: absolute;
+}
+>>>>>>> 758cfbd09a247711ccc5af8005a1c617fbb79077

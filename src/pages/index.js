@@ -11,7 +11,11 @@ import CompanyOverview from '../components/company_overview';
 import Comp from '../components/comp';
 import Career from '../components/career';
 import Subscribe from '../components/subscribe';
+<<<<<<< HEAD
 import Consultation from '../components/consultation';
+=======
+import ClientsSay from '../components/clients_say';
+>>>>>>> 758cfbd09a247711ccc5af8005a1c617fbb79077
 
 
 const IndexPage = () => (
@@ -35,6 +39,12 @@ const IndexPage = () => (
     <br />
     <br />
     <CompanyOverview />
+    <br />
+    <br />
+    <ClientsSay />
+    <br />
+    <br />
+    <br />
     <br />
     <br />
     <Subscribe />
