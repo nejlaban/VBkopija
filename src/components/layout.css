@@ -238,3 +238,24 @@
   display: block;
   font-size: larger;
 }
+.width100MarginLeft50 {
+  width: 100%;
+  margin-left: 50px;
+}
+.clientCard {
+  width: 25rem;
+  height: 300px;
+}
+.cardDiv {
+  position: relative; 
+  height: 300px;
+}
+.cardText {
+  padding-left: 45px;
+  padding-right: 12px; 
+  height:100%;
+}
+.cardTextDiv {
+  bottom: 0;
+  position: absolute;
+}

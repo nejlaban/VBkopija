@@ -12,7 +12,7 @@ const ClientsSay = () => (
     <br />
     <br />
     <br />
-    <div className="row" style={{ width: "100%", marginLeft:'50px' }}>
+    <div className="row width100MarginLeft50">
       <div className="col">
         <ClientCard
           cardText="It is clear that Mr. Dordar and Venture Plans has very large accomplishments in the horizon."

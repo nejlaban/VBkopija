@@ -4,17 +4,15 @@ import Card from "react-bootstrap/Card";
 import avatarImage from "../images/avatar.png";
 
 const ClientCard = (props) => (
-  <Card style={{ width: "25rem", height: "300px" }}>
-      <div style={{
-          position:'relative', height:'300px'
-      }}>
+  <Card className='clientCard'>
+      <div className='cardDiv'>
           <img src={avatarImage} className="avatarCorner" alt=''/>
     <Card.Body>
-      <Card.Text style={{ paddingLeft: "45px", paddingRight: "12px", height:'100%' }}>
+      <Card.Text className='cardText'>
         <p>
           {props.cardText}
         </p>
-        <div style={{bottom:'0', position:'absolute'}}>
+        <div className='cardTextDiv'>
           <p>⭐⭐⭐⭐⭐</p>
           <p><b>{props.clientName}</b></p>
         </div>
