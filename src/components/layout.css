@@ -216,3 +216,42 @@
   background-size: cover;
   height: 500px;
 }
+
+.logoSlika {
+
+  text-decoration: none;
+  list-style-type: none;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: 2px solid ;
+
+  margin-left: 40px;
+      object-fit: cover;
+
+}
+.heading2 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.subheading2 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: gray;
+}
+.row12 {
+ justify-content: center;
+ margin-left:  650px;
+}
+.circle {
+  border-radius: 50%;
+  height: 8em;
+  object-fit: fill;
+  width: 8em;
+  border: 2px solid;  
+  margin-left: 60px;
+}
