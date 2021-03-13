@@ -2,7 +2,7 @@ import React from "react";
 import "./layout.css";
 
 const Career = () => (
-  <div className="container-fluid jumbotron jumbotron-fluid">
+  <div className="container-fluid jumbotron2 jumbotron-fluid">
     <div className="jumbo-text">
         <div>
             <br></br>

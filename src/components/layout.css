@@ -167,3 +167,52 @@
   font-weight: 500;
   font-size: 65px; 
 }
+.pozadina {
+  background-color: #CFEEFA;
+  text-decoration: none;
+}
+
+body {
+  background: #eee
+}
+
+.subscription {
+  border-radius: 8px;
+  background: blue;
+  color: #fff
+}
+
+.email-input {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  background: white;
+}
+
+.subscription span {
+  color: rgb(220, 219, 219)
+}
+.subscribe {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.slikaKnjige {
+  height: 330px;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 65px;
+  margin-top: 25px;
+
+}
+.subscribeText {
+  margin-left: 50px;
+
+}
+
+.jumbotron2 {
+  background-image: url("../images/page1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}

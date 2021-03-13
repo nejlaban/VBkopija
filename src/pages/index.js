@@ -10,6 +10,8 @@ import CoreValues from '../components/core_values';
 import CompanyOverview from '../components/company_overview';
 import Comp from '../components/comp';
 import Career from '../components/career';
+import Subscribe from '../components/subscribe';
+
 
 
 const IndexPage = () => (
@@ -36,6 +38,9 @@ const IndexPage = () => (
     <br />
     <br />
     <Career />
+    <br />
+    <br />
+    <Subscribe />
   </div>
 );
 
