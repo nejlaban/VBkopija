@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import Header from "../components/header";
 import CustomJumbotron from "../components/custom_jumbotron";
 import CoreValues from '../components/core_values';
+import CompanyOverview from '../components/company_overview';
 
 const IndexPage = () => (
   <div>
@@ -24,6 +25,10 @@ const IndexPage = () => (
     </div>
     <br />
     <CoreValues />
+    <br />
+    <br />
+    <br />
+    <CompanyOverview />
   </div>
 );
 
