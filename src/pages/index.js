@@ -35,10 +35,8 @@ const IndexPage = () => (
     <CompanyOverview />
     <br />
     <br />
-    <Career />
-    <br />
-    <br />
     <Subscribe />
+    <Career />
   </div>
 );
 
