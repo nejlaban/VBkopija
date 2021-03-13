@@ -12,8 +12,6 @@ import Comp from '../components/comp';
 import Career from '../components/career';
 import Subscribe from '../components/subscribe';
 
-
-
 const IndexPage = () => (
   <div>
     <Header />
