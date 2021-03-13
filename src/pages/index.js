@@ -8,12 +8,14 @@ import Header from "../components/header";
 import CustomJumbotron from "../components/custom_jumbotron";
 import CoreValues from '../components/core_values';
 import CompanyOverview from '../components/company_overview';
+import Comp from '../components/comp';
 
 const IndexPage = () => (
   <div>
     <Header />
     <SEO title="Home" />
     <CustomJumbotron />
+    <Comp/>
     <br />
     <br />
     <br />
