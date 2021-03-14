@@ -11,6 +11,7 @@ import Subscribe from '../components/subscribe';
 import Consultation from '../components/consultation';
 import ClientsSay from '../components/clients_say';
 import ReadyToTalk from '../components/ready_to_talk';
+import SliderMenu from "../components/sliderMenu";
 
 
 const IndexPage = () => (
@@ -36,6 +37,10 @@ const IndexPage = () => (
     <CompanyOverview />
     <br />
     <br />
+    <SliderMenu/> 
+    <br></br>
+    <br></br>
+
     <ClientsSay />
     <br />
     <br />
