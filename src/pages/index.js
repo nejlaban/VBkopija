@@ -12,6 +12,7 @@ import Comp from '../components/comp';
 import Career from '../components/career';
 import Subscribe from '../components/subscribe';
 import ClientsSay from '../components/clients_say';
+import ReadyToTalk from '../components/ready_to_talk';
 
 
 const IndexPage = () => (
@@ -40,6 +41,10 @@ const IndexPage = () => (
     <ClientsSay />
     <br />
     <br />
+    <br />
+    <br />
+    <br />
+    <ReadyToTalk />
     <br />
     <br />
     <br />

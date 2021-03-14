@@ -250,12 +250,79 @@
   position: relative; 
   height: 300px;
 }
-.cardText {
+.cardText2 {
   padding-left: 45px;
   padding-right: 12px; 
   height:100%;
 }
-.cardTextDiv {
+.cardTextDiv2 {
   bottom: 0;
   position: absolute;
+}
+.scyscraperJumbotron {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/scyscraper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 860px;
+}
+.readyToTalkHeader {
+  color: white;
+  font-size: 60px;
+  margin-top: 80px;
+  margin-left: 160px;
+  font-weight: bold;
+  position: absolute;
+}
+.talkFor {
+  color: white;
+  font-size: 40px;
+  margin-top: 360px;
+  margin-left: 160px;
+  position: absolute;
+}
+.selectAServiceButton {
+  margin-top: 450px;
+  border: 2px solid white;
+  background-color: transparent;
+  padding-left: 60px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 160px;
+  width: 600px;
+  height: 100px;
+  font-size: 30px;
+  text-align: left;
+  right: 0px;
+  white-space: pre;
+}
+.capitalMarkets {
+  color: white;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-left: 400px;
+  position: absolute;
+}
+.fullNameInput {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  background: white;
+  width: 550px;
+  height: 60px;
+}
+.submitForm {
+  margin-top: 250px;
+  margin-left: 550px;
+}
+.submitButton {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  width: 550px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
 }

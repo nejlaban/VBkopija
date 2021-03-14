@@ -8,11 +8,11 @@ const ClientCard = (props) => (
       <div className='cardDiv'>
           <img src={avatarImage} className="avatarCorner" alt=''/>
     <Card.Body>
-      <Card.Text className='cardText'>
+      <Card.Text className='cardText2'>
         <p>
           {props.cardText}
         </p>
-        <div className='cardTextDiv'>
+        <div className='cardTextDiv2'>
           <p>⭐⭐⭐⭐⭐</p>
           <p><b>{props.clientName}</b></p>
         </div>
