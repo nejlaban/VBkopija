@@ -391,3 +391,21 @@
 .colVideo {
   margin-left:50px;
 }
+.col {
+  color: white;
+  margin-left:50px;
+
+}
+.btn {
+  background-color: #00cff4;
+  font-size: 0.78rem;
+  border: 0px
+}
+.subscribe2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 70px;
+  margin-right: 70px;
+
+}

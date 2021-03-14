@@ -15,6 +15,8 @@ import Consultation from '../components/consultation';
 import ClientsSay from '../components/clients_say';
 import ReadyToTalk from '../components/ready_to_talk';
 import SliderMenu from "../components/sliderMenu";
+import Footer from "../components/footer";
+
 
 
 const IndexPage = () => (
@@ -61,6 +63,7 @@ const IndexPage = () => (
     <Career />
     <br />
     <br />
+    <Footer/> 
   
   </div>
 );
