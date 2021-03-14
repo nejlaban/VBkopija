@@ -49,13 +49,14 @@ const IndexPage = () => (
     <br />
     <br />
     <br />
+    <Consultation/>
+    <br></br>
+    <br></br>
     <Subscribe />
     <Career />
     <br />
     <br />
-    <Consultation/>
-    <br></br>
-    <br></br>
+  
   </div>
 );
 

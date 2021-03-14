@@ -23,9 +23,9 @@ const Consultation = () => (
     <br></br>
    </div>
 
-   <div className="row12">
-     <button type="button" class="btn btn-primary">BOOK A FREE CONSULTATION</button>
-   </div>
+   <div className='container-fluid'>
+      <button className="consultationButton"><b>BOOK A FREE CONSULTATION</b></button>
+    </div>
 
    <br></br>
 
