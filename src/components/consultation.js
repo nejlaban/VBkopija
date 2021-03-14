@@ -9,7 +9,7 @@ import nbcImg from "../images/nbc.png"
 import foxImg from "../images/fox.png"
 
 const Consultation = () => (
- <div>
+ <div className='container-fluid'>
    <div className="row1">
      <div className="heading2">
        Start your business today
