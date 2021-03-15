@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "bootstrap": "^4.6.0",
     "gatsby": "^3.0.1",
     "gatsby-plugin-catch-links": "^3.0.0",

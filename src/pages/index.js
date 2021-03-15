@@ -15,6 +15,7 @@ import SliderMenu from "../components/sliderMenu";
 import Sectors from "../components/sectors";
 import Insights from "../components/insights";
 import Footer from "../components/footer";
+import Logos from "../components/logos";
 
 
 
@@ -68,6 +69,9 @@ const IndexPage = () => (
     <Insights />
     <Subscribe />
     <Career />
+    <br></br>
+    <br></br>
+    <Logos/>
     <br />
     <br />
     <Footer/> 

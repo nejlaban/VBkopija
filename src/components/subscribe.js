@@ -1,6 +1,8 @@
 import React from "react";
 import "./layout.css";
 import logoImg from "../images/ebookImage.png";
+import VPImg from "../images/logo.png";
+
 
 const Subscribe = () => (
   <div className="container-fluid pozadina">
