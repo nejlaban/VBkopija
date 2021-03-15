@@ -391,3 +391,30 @@
 .colVideo {
   margin-left:50px;
 }
+.sectorsImageMain {
+  height: 600px; 
+  background-image: url('../images/sectors.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.sectorsNumber {
+  color: rgb(67, 203, 221);
+  font-size: 45px; 
+  margin-right: 10px;
+}
+.sectorsParagraph {
+  font-size: 20px; 
+  text-align: center;
+  margin-top: 18px;
+}
+.sectorsImage {
+  width: 30%; 
+  height: auto; 
+  display: block; 
+  margin: auto
+}
+.insightsPosition {
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+}

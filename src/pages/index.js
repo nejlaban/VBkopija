@@ -12,6 +12,8 @@ import Consultation from '../components/consultation';
 import ClientsSay from '../components/clients_say';
 import ReadyToTalk from '../components/ready_to_talk';
 import SliderMenu from "../components/sliderMenu";
+import Sectors from "../components/sectors";
+import Insights from "../components/insights";
 
 
 const IndexPage = () => (
@@ -52,8 +54,16 @@ const IndexPage = () => (
     <br />
     <br />
     <Consultation/>
-    <br></br>
-    <br></br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <Sectors />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Insights />
     <Subscribe />
     <Career />
     <br />
