@@ -45,7 +45,6 @@ const IndexPage = () => (
     <SliderMenu/> 
     <br></br>
     <br></br>
-
     <ClientsSay />
     <br />
     <br />
@@ -66,7 +65,7 @@ const IndexPage = () => (
     <br />
     <br />
     <br />
-    <Insights />
+    {/* <Insights /> */}
     <Subscribe />
     <Career />
     <br></br>
@@ -75,7 +74,6 @@ const IndexPage = () => (
     <br />
     <br />
     <Footer/> 
-  
   </div>
 );
 

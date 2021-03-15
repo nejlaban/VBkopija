@@ -1,13 +1,17 @@
 import React from "react";
 
+import { BiDownArrow } from 'react-icons/bi';
+
 const ReadyToTalk = () => (
-  <div
-    className="container-fluid scyscraperJumbotron">
+  <div className="container-fluid scyscraperJumbotron">
     <div className="row">
       <div className="column">
         <h1 className="readyToTalkHeader">Ready to talk?</h1>
         <p className="talkFor">I would like to talk to your experts for:</p>
-        <button className="selectAServiceButton">Select a service                               ▾</button>
+          <button
+            className="selectAServiceButton">
+            Select a service                              <BiDownArrow />
+          </button>
       </div>
       <div className="column">
         <p className="capitalMarkets">
@@ -16,26 +20,26 @@ const ReadyToTalk = () => (
         <br />
         <br />
         <br />
-        <div className='submitForm'>
-        <input
-          className="form-control fullNameInput"
-          type="text"
-          placeholder="Full Name"
-        />
-        <br />
-        <input
-          className="form-control fullNameInput"
-          type="text"
-          placeholder="Phone Number"
-        />
-        <br />
-        <input
-          className="form-control fullNameInput"
-          type="text"
-          placeholder="Your Email Address"
-        />
-        <br />
-        <button className="submitButton">Submit</button>
+        <div className="submitForm">
+          <input
+            className="form-control fullNameInput"
+            type="text"
+            placeholder="Full Name"
+          />
+          <br />
+          <input
+            className="form-control fullNameInput"
+            type="text"
+            placeholder="Phone Number"
+          />
+          <br />
+          <input
+            className="form-control fullNameInput"
+            type="text"
+            placeholder="Your Email Address"
+          />
+          <br />
+          <button className="submitButton">Submit</button>
         </div>
       </div>
     </div>

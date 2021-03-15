@@ -12,7 +12,7 @@ const ClientsSay = () => (
     <br />
     <br />
     <br />
-    <div className="row width100MarginLeft50">
+    <div className="row clientsMarginsAndWidth">
       <div className="col">
         <ClientCard
           cardText="It is clear that Mr. Dordar and Venture Plans has very large accomplishments in the horizon."

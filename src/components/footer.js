@@ -2,7 +2,7 @@ import React from "react";
 import "./layout.css";
 
 const Footer = () => (
-    <div className="container" className="navigacija">
+    <div className="container-fluid navigacija">
         <div className="row">
             <br></br>
             <br></br>

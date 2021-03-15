@@ -281,6 +281,11 @@
   width: 100%;
   margin-left: 50px;
 }
+.clientsMarginsAndWidth {
+  width: 95%;
+  margin-left: 60px;
+  margin-right: 50px;
+}
 .clientCard {
   width: 25rem;
   height: 300px;
@@ -436,6 +441,6 @@
   margin-right: 70px;
 }
 .logosRow {
-  width: 100%;
-  margin-left: 0%;
+  width: 95%;
+  margin-left: 50px;
 }
