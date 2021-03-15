@@ -14,6 +14,8 @@ import ReadyToTalk from '../components/ready_to_talk';
 import SliderMenu from "../components/sliderMenu";
 import Sectors from "../components/sectors";
 import Insights from "../components/insights";
+import Footer from "../components/footer";
+
 
 
 const IndexPage = () => (
@@ -68,6 +70,7 @@ const IndexPage = () => (
     <Career />
     <br />
     <br />
+    <Footer/> 
   
   </div>
 );
