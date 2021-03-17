@@ -10,8 +10,9 @@ const ClientsSay = () => {
       allClientDataJson {
         edges {
           node {
-            text
             name
+            stars
+            text
           }
         }
       }
@@ -23,7 +24,7 @@ const ClientsSay = () => {
     data.allClientDataJson.edges.forEach((item, index) => {
       clientsArray.push(
         <div className="col">
-          <ClientCard cardText={item.node.text} clientName={item.node.name} />
+          <ClientCard cardText={item.node.text} clientName={item.node.name} clientStars={item.node.stars}/>
           <br />
         </div>
       );

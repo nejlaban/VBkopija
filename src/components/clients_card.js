@@ -13,7 +13,8 @@ const ClientCard = (props) => (
           {props.cardText}
         </p>
         <div className='cardTextDiv2'>
-          <p>⭐⭐⭐⭐⭐</p>
+          {/* <p>⭐⭐⭐⭐⭐</p> */}
+          <p>{props.clientStars}</p>
           <p><b>{props.clientName}</b></p>
         </div>
       </Card.Text>
