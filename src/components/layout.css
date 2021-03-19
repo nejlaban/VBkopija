@@ -5,7 +5,7 @@
   color: white;
 }
 .jumbotron {
-  background-image: url("../images/page1.jpg");
+  background-image: url("../images/jumbotron.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -319,7 +319,7 @@
   position: absolute;
 }
 .scyscraperJumbotron {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/scyscraper.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/ready_to_talk.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 860px;
