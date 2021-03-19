@@ -13,6 +13,13 @@ const ClientsSay = () => {
             name
             stars
             text
+            image {
+              childImageSharp {
+                fluid {
+                  src
+                }
+              }
+            }
           }
         }
       }
@@ -24,7 +31,7 @@ const ClientsSay = () => {
     data.allClientDataJson.edges.forEach((item, index) => {
       clientsArray.push(
         <div className="col">
-          <ClientCard cardText={item.node.text} clientName={item.node.name} clientStars={item.node.stars}/>
+          <ClientCard cardText={item.node.text} clientName={item.node.name} clientStars={item.node.stars} clientImage={item.node.image.childImageSharp.fluid.src}/>
           <br />
         </div>
       );

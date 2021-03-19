@@ -456,7 +456,6 @@
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #00a1f1 !important;
 }
-<<<<<<< HEAD
 
 /* Pomjeriti searchbar udesno */
 .searchBar.form-control {
@@ -464,10 +463,11 @@
   right: 200px;
   position: absolute;
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
 
-=======
 .nav-link {
   color:white;
   font-weight: 400;
 }
->>>>>>> a9366bc34554cc94ae0635272467cf611c34cd26

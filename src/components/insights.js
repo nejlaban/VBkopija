@@ -13,7 +13,7 @@ const Insights = () => (
     </div>
     <br />
     <br />
-    <div className="row insightsPosition" style={{}}>
+    <div className="row insightsPosition">
       <div className="col">
         <InsightsCard
           image={StocksImg}  

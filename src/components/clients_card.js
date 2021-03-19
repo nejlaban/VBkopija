@@ -6,7 +6,8 @@ import avatarImage from "../images/avatar.png";
 const ClientCard = (props) => (
   <Card className='clientCard'>
       <div className='cardDiv'>
-          <img src={avatarImage} className="avatarCorner" alt=''/>
+          {/* <img src={avatarImage} className="avatarCorner" alt=''/> */}
+          <img src={props.clientImage} className="avatarCorner" alt=''/>
     <Card.Body>
       <Card.Text className='cardText2'>
         <p>

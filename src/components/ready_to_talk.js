@@ -1,6 +1,7 @@
 import React from "react";
 
-import { BiDownArrow } from 'react-icons/bi';
+import { BiDownArrow } from "react-icons/bi";
+import { Dropdown } from "react-bootstrap";
 
 const ReadyToTalk = () => (
   <div className="container-fluid scyscraperJumbotron">
@@ -8,7 +9,7 @@ const ReadyToTalk = () => (
       <div className="column">
         <h1 className="readyToTalkHeader">Ready to talk?</h1>
         <p className="talkFor">I would like to talk to your experts for:</p>
-          <button
+        <button
             className="selectAServiceButton">
             Select a service                              <BiDownArrow />
           </button>
