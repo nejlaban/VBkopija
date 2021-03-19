@@ -12,17 +12,19 @@
   width: 100%;
 }
 .title {
-  font-size: 65px;
+  font-size: 45px;
   margin-top: 62px;
+  font-weight: 400;
 }
 .find {
   font-size: 15px;
   margin-top: 10px;
+  margin-left: 15px;
 }
 .subheading {
-  font-size: 25px;
-  margin-top: 20px;
-  font-weight: 200;
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 400;
 }
 .quoteButton {
   margin-top: 20px;
@@ -457,4 +459,7 @@
 .nav-link {
   color:white;
   font-weight: 400;
+}
+.workWithUs {
+  border-bottom: 4px  solid #00a1f1;
 }
