@@ -10,6 +10,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  margin-bottom: 0%;
 }
 .title {
   font-size: 65px;
@@ -53,7 +54,8 @@
 
 /* Skloni liniju ispod navbara  */
 .bg-dark {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
+  visibility: hidden;
 }
 .officesDropButton,
 .languageDropButton {
@@ -454,3 +456,11 @@
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #00a1f1 !important;
 }
+
+/* Pomjeriti searchbar udesno */
+.searchBar.form-control {
+  margin-right: 15px;
+  right: 200px;
+  position: absolute;
+}
+
