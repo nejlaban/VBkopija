@@ -24,6 +24,8 @@ const IndexPage = () => (
     <Header />
     <SEO title="Home" />
     <CustomJumbotron />
+    <br />
+    <br />
     <Comp/>
     <br />
     <br />
@@ -65,7 +67,7 @@ const IndexPage = () => (
     <br />
     <br />
     <br />
-    {/* <Insights /> */}
+    <Insights />
     <Subscribe />
     <Career />
     <br></br>

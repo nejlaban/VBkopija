@@ -7,13 +7,13 @@ import SkyscraperImg from '../images/skyscraper2.jpg'
 import SimulationImg from '../images/simulation.jpg'
 
 const Insights = () => (
-  <div className="container-fluid">
+  <div className="container-fluid" style={{position:'relative'}}>
     <div className="container">
       <p className="valuesAndOverview">OUR LATEST INSIGHTS</p>
     </div>
     <br />
     <br />
-    <div className="row insightsPosition">
+    <div className="row insightsPosition" style={{}}>
       <div className="col">
         <InsightsCard
           image={StocksImg}  
