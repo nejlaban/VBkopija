@@ -132,7 +132,7 @@ const Header = ({ siteTitle }) => (
             Contact
           </Link>
         </Nav.Item>
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary" color="#00a1f1">
           Schedule a consultation
         </button>
 
