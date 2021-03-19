@@ -24,7 +24,7 @@
 }
 .subheading {
   font-size: 17px;
-  margin-top: 10px;
+  margin-top: 100px;
   font-weight: 400;
 }
 .quoteButton {
@@ -71,6 +71,7 @@
 }
 .verticalLineLeft {
   border-left: 4px solid rgb(67, 203, 221);
+  margin-top: 100px;
 }
 .valuesAndOverview {
   border-bottom: 6px solid #00a1f1;
@@ -78,6 +79,7 @@
   font-size: 32pt;
   text-align: center;
   font-weight: bold;
+  margin-top: 125px;
 }
 .blueText {
   color: #00a1f1;
@@ -204,7 +206,7 @@
 }
 .subscribe {
   font-size: 25px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-weight: 600;
   margin-left: 50px;
 }
@@ -214,6 +216,7 @@
   list-style-type: none;
   margin-right: 65px;
   margin-top: 25px;
+  margin-bottom: 100px;
 
 }
 .subscribeText {
@@ -243,7 +246,7 @@
 }
 .heading2 {
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 55px;
   font-weight: 400;
   text-align: center;
 }
@@ -287,6 +290,7 @@
   margin: 0 auto;
   display: block;
   font-size: larger;
+  margin-bottom: 100px;
 }
 .width100MarginLeft50 {
   width: 100%;
@@ -454,6 +458,8 @@
 .logosRow {
   width: 95%;
   margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #00a1f1 !important;

@@ -24,57 +24,24 @@ const IndexPage = () => (
     <Header />
     <SEO title="Home" />
     <CustomJumbotron />
-    <br />
-    <br />
     <Comp/>
-    <br />
-    <br />
-    <br />
     <div className="container">
       <p className="verticalLineLeft" 
           style={{textAlign: "center"}}>
         Across sectors, we indetify new markets, scale revenue, improve operations and provide financing support
       </p>
     </div>
-    <br />
     <CoreValues />
-    <br />
-    <br />
-    <br />
     <CompanyOverview />
-    <br />
-    <br />
     <SliderMenu/> 
-    <br></br>
-    <br></br>
     <ClientsSay />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <ReadyToTalk />
-    <br />
-    <br />
-    <br />
     <Consultation/>
-    <br />
-    <br />
-    <br />
-    <br />
     <Sectors />
-    <br />
-    <br />
-    <br />
-    <br />
     <Insights />
     <Subscribe />
     <Career />
-    <br></br>
-    <br></br>
     <Logos/>
-    <br />
-    <br />
     <Footer/> 
   </div>
 );
