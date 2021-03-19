@@ -23,6 +23,19 @@ const Footer = () => (
                 </div>          
             </div>
         </div>
+        <div class="row footerLower">
+            <div class="col-md-6">
+                <span>© 2010 -2021 Venture Plans, Inc.</span>
+            </div>
+            <div class="col-md-6">
+                <span>Email Us</span>
+                <span>Privacy</span>
+                <span>Cookie Policy</span>
+                <span>Terms of Use</span>
+                <span>Contact</span>
+                <span>Top</span>
+            </div>
+        </div>
     </div >
 );
 
