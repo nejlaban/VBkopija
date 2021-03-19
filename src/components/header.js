@@ -134,6 +134,7 @@ const Header = ({ siteTitle }) => (
             Contact
           </Link>
         </Nav.Item>
+
         <i class="bi bi-calendar"></i>
         <button type="button" class="btn btn-primary" color="#00a1f1">
           <svg

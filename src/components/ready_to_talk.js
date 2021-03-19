@@ -16,7 +16,7 @@ const ReadyToTalk = () => (
       </div>
       <div className="column">
         <p className="capitalMarkets">
-          Experienced in capital markets, a client-
+          Experienced in capital markets, a client-<br></br>first culture, and potent track-record
         </p>
         <br />
         <br />

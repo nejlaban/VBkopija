@@ -41,7 +41,7 @@ const Comp = () => (
      
             <div class="">
               <br></br>  
-                <div>
+                <div class="subheading">
                     <img src={logoImg} className="slika" alt=""></img>
 
                 </div>    </div>
