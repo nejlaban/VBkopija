@@ -10,22 +10,19 @@
   background-size: cover;
   height: 100%;
   width: 100%;
-  margin-bottom: 0%;
 }
 .title {
-  font-size: 45px;
+  font-size: 65px;
   margin-top: 62px;
-  font-weight: 400;
 }
 .find {
   font-size: 15px;
   margin-top: 10px;
-  margin-left: 15px;
 }
 .subheading {
-  font-size: 17px;
-  margin-top: 10px;
-  font-weight: 400;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 200;
 }
 .quoteButton {
   margin-top: 20px;
@@ -56,8 +53,7 @@
 
 /* Skloni liniju ispod navbara  */
 .bg-dark {
-  /* background-color: transparent !important; */
-  visibility: hidden;
+  background-color: transparent !important;
 }
 .officesDropButton,
 .languageDropButton {
@@ -458,24 +454,7 @@
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #00a1f1 !important;
 }
-<<<<<<< HEAD
-
-/* Pomjeriti searchbar udesno */
-.searchBar.form-control {
-  margin-right: 15px;
-  right: 200px;
-  position: absolute;
-}
-
-=======
 .nav-link {
   color:white;
   font-weight: 400;
 }
-<<<<<<< HEAD
-.workWithUs {
-  border-bottom: 4px  solid #00a1f1;
-}
-=======
->>>>>>> a9366bc34554cc94ae0635272467cf611c34cd26
->>>>>>> 92bc31687d7e496525f9dc250b1f1aaa962757c0
